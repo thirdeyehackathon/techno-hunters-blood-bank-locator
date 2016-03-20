@@ -1,0 +1,43 @@
+<html>
+<head>
+<title>Blood Bank</title>
+<style>
+body
+{
+	
+	background-image: url("aniblood.gif");
+    background-repeat: no-repeat;
+    background-position: center;
+   background-size:cover;
+     width: 50%;
+    height: 30%;
+}
+</style>
+</head>
+<body >
+
+<form name="blood" action="donor.php" method="POST">
+<center><h2><b>Availability of blood</b></h2></center>
+<center><br><br><br>
+<table border="0">
+<tr>
+<td><h3><label>Blood Group:</label></h3></td>
+<td><input type="text"  name="blogp"/></td><br>
+</tr>
+<tr>
+<td><h3><label>City:</label></h3></td>
+<td><input type="text" name="city"/></td>
+<br>
+</tr>
+<tr>
+<td><h3><label>Current Hospital:</label></h3></td>
+<td><input type="text" name="current"/></td>
+<br>
+</tr>
+<tr><td></td>
+<td><button type="submit">Find</button></td></tr>
+</table>
+</center>
+</form>
+</body>
+</html>
